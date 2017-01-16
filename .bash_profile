@@ -1,6 +1,15 @@
 # Add `~/bin` to the `$PATH`
 export PATH="/usr/local/bin:$PATH"
 
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
