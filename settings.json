@@ -1,0 +1,14 @@
+{
+    // VS Code - Editor
+
+    "editor.fontFamily": "Roboto Mono, monospace",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+
+    "window.zoomLevel": 0,
+    "files.autoSave": "off",
+
+    // SCSS Lint
+    "stylelint.enable": true,
+    "css.validate": false
+  }
