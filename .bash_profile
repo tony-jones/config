@@ -18,6 +18,7 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias wd="cd ~/Documents/webdev"
+alias g="git"
 
 # NETWORKING
 alias localip="ipconfig getifaddr en0"              # localip:      Local IP Address
