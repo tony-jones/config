@@ -7,7 +7,7 @@ My main config files. Git, VS Code, and more
  * [Hyper](https://hyper.is) a terminal replacement
  
 ### Core Software
- * [Xcode Command Line Tools](https://www.google.com/chrome) web browser for dev work 
+ * Xcode Command Line Tools web browser for dev work 
  
  ```shell
   $ xcode-select --install
