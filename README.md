@@ -31,6 +31,7 @@ My main config files. Git, VS Code, and more
  * [MAMP Pro](https://www.mamp.info/en/) easy user interface to get server running quickly
  * [Docker/Kitematic](https://kitematic.com) Run containers through a simple GUI
    You can re-generate the certificates for your VM via:
+   
    ```shell
    $ docker-machine -D regenerate-certs default
    ```
