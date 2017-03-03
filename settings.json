@@ -1,5 +1,5 @@
+// Place your settings in this file to overwrite the default settings
 {
-
     "editor.fontFamily": "Roboto Mono, monospace",
     "editor.fontSize": 14,
     "editor.tabSize": 2,
@@ -8,5 +8,6 @@
     "files.autoSave": "off",
 
     "stylelint.enable": true,
-    "css.validate": false
-  }
+    "css.validate": false,
+    "editor.rulers": [100]
+ }
