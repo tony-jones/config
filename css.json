@@ -9,7 +9,7 @@
 /* ensures iOS Safari matches the page width to wider landscape viewports instead of zooming */
 html {
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
 }
 
 /* Reset inconsistent browser interpretations of line height and smooth fonts */
@@ -17,7 +17,7 @@ body {
   margin: 0;
   font: 16px/1 sans-serif;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased
 }
 
 /* Reset margin and padding for all browsers */
@@ -33,7 +33,7 @@ figure,
 ol,
 ul {
   margin: 0;
-  padding: 0;
+  padding: 0
 }
 
 /* Fixes the main tag being unsupported in some browsers */
