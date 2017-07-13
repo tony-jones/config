@@ -1,0 +1,97 @@
+/* Resets */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ensures iOS Safari matches the page width to wider landscape viewports instead of zooming */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Reset inconsistent browser interpretations of line height and smooth fonts */
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
+}
+
+/* Reset margin and padding for all browsers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fixes the main tag being unsupported in some browsers */
+main,
+li {
+  display: block;
+}
+
+/*  headings to inherit the same size as the surrounding text by default */
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit;
+}
+
+/* This corrects some browsers defaulting to bolder */
+strong {
+  font-weight: bold;
+}
+
+/* Fixes button not inheriting text color in most browsers */
+a,
+button {
+  color: inherit;
+  transition: .3s;
+}
+
+/*  Links are styled many different ways on the same page, so remove decoration by default */
+a {
+  text-decoration: none;
+}
+
+/*  Reset the native button appearance in all browsers and add cursor to all buttons */
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+/* Firefox adds focus inside buttons that cause them to display larger than expected */
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* Removes user agent default outline that appears when focusing interactive */
+:focus {
+  outline: 0;
+}
+
+/* Responsive images. "border" fixes images within links gaining a border in IE 8, 9 and 10 */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}		
